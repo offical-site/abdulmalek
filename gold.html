@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>تحديث الأرقام</title>
+    <style>
+        /* تحديد الانتقال والتأثيرات للرقم */
+        
+        .number-transition {
+            opacity: 0;
+            transition: opacity 1s ease-in-out;
+        }
+        /* تحديد الأرقام الأصلية */
+        
+        .original-number {
+            opacity: 1;
+        }
+    </style>
+
+    <!--
+    <script>
+        // تحديث الأرقام كل 8 ثوانٍ setInterval(updateNumbers, 8000); function updateNumbers() { // تحديث الرقم الأول برقم عشوائي بين 14.429 و 14.722 var randomNum1 = (Math.random() * (14.722 - 14.429) + 14.429).toFixed(3); // تحديث الرقم الثاني برقم عشوائي بين
+        16.832 و 16.999
+        var randomNum2 = (Math.random() * (16.999 - 16.832) + 16.832).toFixed(3); // تحديث الرقم الثالث برقم عشوائي بين 19.238 و 19.612 var randomNum3 = (Math.random() * (19.612 - 19.238) + 19.238).toFixed(3); // تحديث الرقم الرابع برقم عشوائي
+        بين 17.641 و 17.825
+        var randomNum4 = (Math.random() * (17.825 - 17.641) + 17.641).toFixed(3); // العناصر الحالية var originalNumbers = document.getElementsByClassName("original-number"); var updatedNumbers = document.getElementsByClassName("number-transition");
+        // إظهار الأرقام المحدثة بشكل سلس for (var i = 0; i
+        <
+        originalNumbers.length;
+        i++) {
+            originalNumbers[i].classList.remove("original-number");
+            originalNumbers[i].classList.add("number-transition");
+        } // تأخير عرض الأرقام المحدثة setTimeout(function() { for (var i=0 ; i < updatedNumbers.length; i++) { updatedNumbers[i].textContent=e
+        val("randomNum" + (i + 1));
+        updatedNumbers[i].classList.remove("number-transition");
+        updatedNumbers[i].classList.add("original-number");
+        }
+        }, 1000);
+        }
+    </script>
+    -->
+</head>
+
+<body>
+    <span class="original-number">14.429</span><br>
+    <span class="original-number">16.832</span><br>
+    <span class="original-number">19.238</span><br>
+    <span class="original-number">17.641</span><br>
+</body>
+
+</html>
