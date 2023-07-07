@@ -46163,3 +46163,27 @@ html {
 
 
 /*end-variables base-font-size*/
+
+
+/*end-variables base-font-size*/
+
+
+/* تحديد الانتقال والتأثيرات للرقم */
+
+.number-transition {
+    transition: opacity 1s ease-in-out;
+}
+
+
+/* تحديد الأرقام الأصلية */
+
+.original-number {
+    opacity: 1;
+}
+
+
+/* تحديد الأرقام المحدثة */
+
+.updated-number {
+    opacity: 0;
+}
