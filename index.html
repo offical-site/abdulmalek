@@ -6,7 +6,7 @@
     <meta charset="utf-8">
     <meta name="keywords" content>
     <meta name="description" content>
-    <title>Home</title>
+    <title>مجوهرات عبدالملك</title>
     <link rel="stylesheet" href="nicepage.css" media="screen">
     <link rel="stylesheet" href="Home.css" media="screen">
     <script class="u-script" type="text/javascript" src="jquery.js" defer></script>
@@ -27,10 +27,94 @@
     <meta property="og:title" content="Home">
     <meta property="og:description" content>
     <meta property="og:type" content="website">
+    <style>
+        /* ستايل الطبقة السوداء */
+        .overlay {
+          position: fixed;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          background-color: rgba(0, 0, 0, 0.7); /* لون الخلفية السوداء مع الشفافية */
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          z-index: 9999;
+        }
+        
+        /* ستايل النص داخل الطبقة */
+        .overlay-text {
+          color: #fff;
+          font-size: 24px;
+          font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+
+
+
+        .loader {
+  transform: translateZ(1px);
+}
+
+.loader:after {
+  content: '$';
+  display: inline-block;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 40px;
+  font-size: 32px;
+  font-weight: bold;
+  background: #FFD700;
+  color: #DAA520;
+  border: 4px double;
+  box-sizing: border-box;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, .1);
+  animation: coin-flip 4s cubic-bezier(0, 0.2, 0.8, 1) infinite;
+}
+
+@keyframes coin-flip {
+  0%, 100% {
+    animation-timing-function: cubic-bezier(0.5, 0, 1, 0.5);
+  }
+
+  0% {
+    transform: rotateY(0deg);
+  }
+
+  50% {
+    transform: rotateY(1800deg);
+    animation-timing-function: cubic-bezier(0, 0.5, 0.5, 1);
+  }
+
+  100% {
+    transform: rotateY(3600deg);
+  }
+
+  
+}
+      
+      </style>
 </head>
 
 <body data-home-page="Home.html" data-home-page-title="Home" class="u-body u-overlap u-xl-mode" data-lang="en">
-    <div id="loading-overlay"></div>
+    <div class="overlay" id="overlay">
+        <div class="loader"></div>
+        <div class="overlay-text">جاري تلقي البيانات</div>
+
+
+
+
+      </div>
+
+
+
+
+
+
+
+
+
     <header class="u-clearfix u-header u-palette-3-base u-sticky u-sticky-d5b4 u-header" id="sec-58d3">
         <div class="u-clearfix u-sheet u-sheet-1">
             <nav class="u-menu u-menu-hamburger u-offcanvas u-menu-1" data-responsive-from="XL">
@@ -72,6 +156,9 @@
                 box-shadow: 5px 5px 20px 0 rgba(0, 0, 0, 0.4) !important
             }
         </style>
+
+
+
     </header>
     <section class="u-clearfix u-white u-section-1" id="sec-2b61">
         <div class="u-clearfix u-sheet u-sheet-1">
@@ -104,7 +191,7 @@
                         </div>
                     </div>
                     <h2 class="u-custom-font u-text u-text-default u-text-3">عيار 18</h2>
-                    <h2 class="u-custom-font u-text u-text-default u-text-4" id="number1">14.313</h2>
+                    <h2 class="u-custom-font u-text u-text-default u-text-4" id="number1">14.407</h2>
                 </div>
             </div>
             <div class="u-container-style u-expanded-width-xs u-group u-radius-50 u-shape-round u-white u-group-3">
@@ -115,7 +202,7 @@
                         </div>
                     </div>
                     <h2 class="u-custom-font u-text u-text-default u-text-6">عيار 21</h2>
-                    <h2 class="u-custom-font u-text u-text-default u-text-7" id="number2">16.699</h2>
+                    <h2 class="u-custom-font u-text u-text-default u-text-7" id="number2">16.809</h2>
                 </div>
             </div>
             <img class="infinite u-image u-image-circle u-image-1" src="images/398fad36-c7a5-29fb-9d3c-09d3a4956042.png" alt data-image-width="1087" data-image-height="1123" data-animation-name="pulse" data-animation-duration="1500" data-animation-direction>
@@ -127,7 +214,7 @@
                         </div>
                     </div>
                     <h2 class="u-custom-font u-text u-text-default u-text-9">عيار 22</h2>
-                    <h2 class="u-custom-font u-text u-text-default u-text-10" id="number3"> 17.506</h2>
+                    <h2 class="u-custom-font u-text u-text-default u-text-10" id="number3"> 17.617</h2>
                 </div>
             </div>
             <div class="u-container-style u-expanded-width-xs u-group u-radius-50 u-shape-round u-white u-group-7">
@@ -138,7 +225,7 @@
                         </div>
                     </div>
                     <h2 class="u-custom-font u-text u-text-default u-text-12">عيار 24</h2>
-                    <h2 class="u-custom-font u-text u-text-default u-text-13" id="number4"> 19.091</h2>
+                    <h2 class="u-custom-font u-text u-text-default u-text-13" id="number4"> 19.211</h2>
                 </div>
             </div><span class="infinite u-file-icon u-icon u-icon-1" data-animation-name="pulse" data-animation-duration="3000" data-animation-direction><img src="images/706482.png" alt></span>
             <h1 class="infinite u-custom-font u-text u-text-default u-text-14" data-animation-name="flash" data-animation-duration="1750" data-animation-direction><span class="u-icon"></span>&nbsp;يتم تحديث الأسعاركل 000.1 ثانية<span style="font-weight: 700;"></span>
@@ -179,6 +266,26 @@
         // تحديث التاريخ والوقت كل ثانية واحدة (يمكنك تعديل الفاصل الزمني حسب الحاجة)
         setInterval(updateDateTime, 1000);
     </script>
+
+    <script>
+        // تحديث الصفحة كل دقيقة (60 ثانية)
+setInterval(function() {
+  location.reload();
+}, 60000);
+
+    </script>
+
+
+
+<script>
+
+// الانتظار لمدة 10 ثوانٍ
+setTimeout(function() {
+  // إخفاء الطبقة السوداء
+  var overlay = document.getElementById('overlay');
+  overlay.style.display = 'none';
+}, 8000);
+</script>
 
 </body>
 
